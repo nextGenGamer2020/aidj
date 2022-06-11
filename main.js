@@ -60,8 +60,8 @@ function gotPoses(result){
 function draw(){
     image(video, 0,0, 350,350 )
 
-    song1Status = song.isPlaying()
-    song2Status = song.isPlaying()
+    song1Status = song1.isPlaying()
+    song2Status = song2.isPlaying()
 
     fill("#063970")
     stroke("#000000")
